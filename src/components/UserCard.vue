@@ -4,7 +4,6 @@
     <p class="user-nickname">{{login}}</p>
     <p class="user-name">
       {{lastname}} {{firstname}}<br />
-      {{patronimic}}
     </p>
     <hr />
     <p class="user-info-item">
@@ -25,7 +24,7 @@
 <script>
 export default {
   name: "UserCard",
-  props:['avatar','lastname', 'firstname', 'patronimic', 'login', 'adress', 'phone', 'email']
+  props:['avatar','lastname', 'firstname', 'login', 'adress', 'phone', 'email']
 };
 </script>
 
